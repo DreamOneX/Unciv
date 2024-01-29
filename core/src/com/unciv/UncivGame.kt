@@ -139,7 +139,7 @@ open class UncivGame(val isConsoleMode: Boolean = false) : Game(), PlatformSpeci
             val vanillaRuleset = RulesetCache.getVanillaRuleset()
 
             if (settings.multiplayer.userId.isEmpty()) { // assign permanent user id
-                settings.multiplayer.userId = UUID.randomUUID().toString()
+                settings.multiplayer.userId = "c6a22e9a-88c3-49ea-b683-7d7900a18d44"
                 settings.save()
             }
 
